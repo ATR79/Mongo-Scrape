@@ -16,8 +16,8 @@ var scrape = function (cb) {
                 var sumNeat = head.replace(/(\r\n|\n|\r|\t|\s+)/gm, " ").trim();
 
                 var dataAdd = {
-                    headline = headNeat,
-                    summary = sumNeat
+                    headline: headNeat,
+                    summary: sumNeat
                 };
                 articles.push(dataAdd);
             }
